@@ -5,7 +5,7 @@ function App() {
   return (
     <>
         <h1 className='mb-4'>Assalam o alikum</h1>
-        <p>asharib kamal</p>
+        <p>asharib kamal and areeba</p>
     </>
   )
 }
