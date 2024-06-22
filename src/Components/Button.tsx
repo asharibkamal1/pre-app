@@ -1,6 +1,6 @@
-const Button=({text ="submit"})=>
+const Button=({text =""})=>
     {
-        return <button>{text}</button>;
+        return <button className="bg-blue-500">{text}</button>;
 
     }
     export default Button
