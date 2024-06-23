@@ -1,17 +1,14 @@
 
 import './App.css'
-import Button from './Components/Button'
-
+import Cart from './Components/Cart'
+import Counter from './Components/Counter'
+ 
 function App() {
   return (
     <>
-        <h1 className='mb-6'>Assalam o alikum  </h1>
-        <p className='bg-red-500'>My First React App + Vite Asharib kamal + Type Script</p>
-        <Button text='kuch bhi'/>
-        <Button text='kuch bhi'/>
-        <Button />
-        <Button text='kuch bhi'/>
-        <Button text='kuch bhi'/>
+        <Counter/>
+        <Cart/>
+      
     </>
   )
 }
